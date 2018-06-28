@@ -26,6 +26,12 @@ public class Owl {
         asian.talk();
         System.out.println(asian.name);
         
+        InterfaceOwl owlie = new InterfaceOwl();
+        owlie.talk();
+        owlie.move();
+        owlie.eat();
+        owlie.sleep();
+        
     }
     
 }
@@ -60,4 +66,30 @@ class Owr extends Owlette{
     public void talk(){
         System.out.println("Hello america I am wong hoot hoot");
     }
+}
+
+class InterfaceOwl extends Owr implements Actions{
+    public String name = "kuya Eli";
+    
+    public void eat(){
+        System.out.println("kuya Eli : yummy");
+    }
+    public void sleep(){
+        System.out.println("kuya Eli : ZZZZZZZ");
+    }
+    public void move(){
+        System.out.println("kuya Eli: FLAP FLAP FLAP");
+    }
+    public void talk(){
+        System.out.println("hi frens im kuya Eli");
+    }
+    
+}
+
+
+interface Actions{
+    public void eat();
+    public void sleep();
+    public void move();
+    public void talk();
 }
