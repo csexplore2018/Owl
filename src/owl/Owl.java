@@ -37,7 +37,7 @@ class Animal{
 
 class MaleOwl extends Animal{
     public void talk(){
-        System.out.println("ney");
+        System.out.println("hoot");
     }
 }
 
@@ -46,6 +46,6 @@ class Owlette extends Animal{
     public String name = "Hedwig";
     
     public void talk(){
-        System.out.println("YOYO");
+        System.out.println("hoat");
     }
 }
