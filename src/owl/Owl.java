@@ -22,6 +22,10 @@ public class Owl {
         o.talk();
         System.out.println(o.name);
         
+        Owr asian = new Owr();
+        asian.talk();
+        System.out.println(asian.name);
+        
     }
     
 }
@@ -47,5 +51,13 @@ class Owlette extends Animal{
     
     public void talk(){
         System.out.println("hoat");
+    }
+}
+
+class Owr extends Owlette{
+    public String name = "Wong";
+    
+    public void talk(){
+        System.out.println("Hello america I am wong hoot hoot");
     }
 }
