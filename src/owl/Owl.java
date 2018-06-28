@@ -1,14 +1,7 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package owl;
 
-/**
- *
- * @author gc_science3
- */
+
 public class Owl {
 
     public String name = "Owl";
