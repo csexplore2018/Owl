@@ -72,16 +72,16 @@ class InterfaceOwl extends Owr implements Actions{
     public String name = "kuya Eli";
     
     public void eat(){
-        System.out.println("kuya Eli : yummy");
+        System.out.println(" yummy");
     }
     public void sleep(){
-        System.out.println("kuya Eli : ZZZZZZZ");
+        System.out.println("ZZZZZZZ");
     }
     public void move(){
-        System.out.println("kuya Eli: FLAP FLAP FLAP");
+        System.out.println("FLAP FLAP FLAP");
     }
     public void talk(){
-        System.out.println("hi frens im kuya Eli");
+        System.out.println("hi frens");
     }
     
 }
