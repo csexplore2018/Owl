@@ -61,10 +61,10 @@ class Owlette extends Animal{
 }
 
 class Owr extends Owlette{
-    public String name = "Wong";
+    public String name = "gabe";
     
     public void talk(){
-        System.out.println("Hello america I am wong hoot hoot");
+        System.out.println("Hello america I am gabe hoot hoot");
     }
 }
 
